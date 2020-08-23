@@ -43,7 +43,9 @@ class Index extends Component {
         <AboutOurCommunity />
         {/*About Our Community and Our Expertise Section end*/}
 
+        {/* Counter section end */}
         <Counter />
+        {/* Counter section end */}
 
         {/* Category section start */}
         <section className="categories-cards section-padding-two">
