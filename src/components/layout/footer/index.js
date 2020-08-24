@@ -163,11 +163,13 @@ export class Footer extends Component {
                 {/* ends: .col-lg-3 */}
                 <div className="col-lg-4 col-sm-6">
                   <div className="widget widget_text">
-                    <h2 className="widget-title">Direo on Mobile</h2>
+                    <h2 className="widget-title">
+                      India Distress Market on Mobile
+                    </h2>
                     <div className="textwidget">
                       <p>
-                        Download the Direo app today so you can find your events
-                        anytime, anywhere.
+                        Download the India Distress Market app today so you can
+                        find your events anytime, anywhere.
                       </p>
                       <ul className="list-unstyled store-btns">
                         <li>

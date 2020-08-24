@@ -61,66 +61,6 @@ class Header extends Component {
                       </div>
                     </div>
                     <div className="menu-right order-lg-2 order-sm-2">
-                      <div className="search-wrapper">
-                        <div className="nav_right_module search_module">
-                          <span className="icon-left" id="basic-addon9">
-                            <i className="la la-search"></i>
-                          </span>
-                          <div className="search_area">
-                            <form action="/">
-                              <div className="input-group input-group-light">
-                                <input
-                                  type="text"
-                                  className="form-control search_field top-search-field"
-                                  placeholder="What are you looking for?"
-                                  autoComplete="off"
-                                />
-                              </div>
-                            </form>
-                          </div>
-                        </div>
-                        <div className="search-categories">
-                          <ul className="list-unstyled">
-                            <li>
-                              <a href=" " onClick={noAction}>
-                                <span className="la la-glass bg-danger"></span>{" "}
-                                Food & Drinks
-                              </a>
-                            </li>
-                            <li>
-                              <a href=" " onClick={noAction}>
-                                <span className="la la-cutlery bg-primary"></span>{" "}
-                                Restaurants
-                              </a>
-                            </li>
-                            <li>
-                              <a href=" " onClick={noAction}>
-                                <span className="la la-map-marker bg-success"></span>{" "}
-                                Places
-                              </a>
-                            </li>
-                            <li>
-                              <a href=" " onClick={noAction}>
-                                <span className="la la-shopping-cart bg-secondary"></span>{" "}
-                                Shopping & Store
-                              </a>
-                            </li>
-                            <li>
-                              <a href=" " onClick={noAction}>
-                                <span className="la la-bed bg-info"></span>{" "}
-                                Hotels
-                              </a>
-                            </li>
-                            <li>
-                              <a href=" " onClick={noAction}>
-                                <span className="la la-bank bg-warning"></span>{" "}
-                                Art & History
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      {/*<!-- ends: .search-wrapper -->*/}
                       {/*<!-- start .author-area -->*/}
                       <div className="author-area">
                         <div className="author__access_area">
@@ -144,7 +84,7 @@ class Header extends Component {
                                 >
                                   Login
                                 </a>
-                                <span>or</span>
+                                <span>/</span>
                                 <a
                                   href=" "
                                   className="access-link"

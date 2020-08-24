@@ -11,21 +11,17 @@ export class ContentBlockHome extends Component {
               <div className="col-lg-12">
                 <div className="section-title">
                   <h2>
-                    Why <span>Direo</span> for your Business?
+                    Why join <span>India</span> Distress Market ?
                   </h2>
-                  <p>Explore the popular listings around the world</p>
+                  <p>
+                    Explore all resources, network with fellow professionals,
+                    ask your queries, Free advertise your requirements
+                  </p>
                 </div>
               </div>
               <div className="col-lg-12">
                 <div className="row align-items-center">
                   <div className="col-lg-6 col-md-6">
-                    <img
-                      src="./assets/img/svg/illustration-1.svg"
-                      alt=""
-                      className="svg"
-                    />
-                  </div>
-                  <div className="col-lg-5 offset-lg-1 col-md-6 mt-5 mt-md-0">
                     <ul className="feature-list-wrapper list-unstyled">
                       <li>
                         <div className="icon">
@@ -34,7 +30,7 @@ export class ContentBlockHome extends Component {
                           </span>
                         </div>
                         <div className="list-content">
-                          <h4>Claim Listing</h4>
+                          <h4> Explore Resources</h4>
                           <p>
                             Excepteur sint occaecat cupidatat non proident sunt
                             in culpa officia deserunt mollit.
@@ -48,7 +44,7 @@ export class ContentBlockHome extends Component {
                           </span>
                         </div>
                         <div className="list-content">
-                          <h4>Paid Listing</h4>
+                          <h4>Network with right people</h4>
                           <p>
                             Excepteur sint occaecat cupidatat non proident sunt
                             in culpa officia deserunt mollit.
@@ -62,7 +58,54 @@ export class ContentBlockHome extends Component {
                           </span>
                         </div>
                         <div className="list-content">
-                          <h4>Promote your Business</h4>
+                          <h4> Advertise your requirements</h4>
+                          <p>
+                            Excepteur sint occaecat cupidatat non proident sunt
+                            in culpa officia deserunt mollit.
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                    {/*<!-- ends: .feature-list-wrapper -->*/}
+                  </div>
+                  <div className="col-lg-5 offset-lg-1 col-md-6 mt-5 mt-md-0">
+                    <ul className="feature-list-wrapper list-unstyled">
+                      <li>
+                        <div className="icon">
+                          <span className="circle-secondary">
+                            <i className="la la-check-circle"></i>
+                          </span>
+                        </div>
+                        <div className="list-content">
+                          <h4> Explore Resources</h4>
+                          <p>
+                            Excepteur sint occaecat cupidatat non proident sunt
+                            in culpa officia deserunt mollit.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="icon">
+                          <span className="circle-success">
+                            <i className="la la-money"></i>
+                          </span>
+                        </div>
+                        <div className="list-content">
+                          <h4>Network with right people</h4>
+                          <p>
+                            Excepteur sint occaecat cupidatat non proident sunt
+                            in culpa officia deserunt mollit.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="icon">
+                          <span className="circle-primary">
+                            <i className="la la-line-chart"></i>
+                          </span>
+                        </div>
+                        <div className="list-content">
+                          <h4> Advertise your requirements</h4>
                           <p>
                             Excepteur sint occaecat cupidatat non proident sunt
                             in culpa officia deserunt mollit.
@@ -78,7 +121,7 @@ export class ContentBlockHome extends Component {
                           to="/at_demo"
                           className="btn btn-success"
                         >
-                          See our Pricing
+                          Join the Community
                         </NavLink>
                       </li>
                       <li>
@@ -87,7 +130,7 @@ export class ContentBlockHome extends Component {
                           to="/at_demo"
                           className="btn btn-primary"
                         >
-                          Submit Listings
+                          Advertise For Free
                         </NavLink>
                       </li>
                     </ul>
@@ -131,7 +174,7 @@ export class ContentBlockAbout extends Component {
                   <div className="row align-items-center">
                     <div className="col-lg-5 col-sm-6">
                       <h1>
-                        Why List on <span>Direo</span>
+                        Why List on <span>India Distress Market</span>
                       </h1>
                       <ul className="list-unstyled list-features p-top-15">
                         <li>

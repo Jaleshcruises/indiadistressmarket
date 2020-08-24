@@ -36,11 +36,29 @@ export class NavItem extends Component {
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Community Discussion Forum
+              Community
             </a>
             <ul className="dropdown-menu" aria-labelledby="drop4">
               <li>
                 <NavLink to="/all-categories">All Categories</NavLink>
+              </li>
+            </ul>
+          </li>
+          <li className="dropdown has_dropdown">
+            <a
+              className="dropdown-toggle"
+              href="# "
+              id="drop2"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Discussion Forum
+            </a>
+            <ul className="dropdown-menu" aria-labelledby="drop2">
+              <li>
+                <NavLink to="/author-profile">Author Profile</NavLink>
               </li>
             </ul>
           </li>

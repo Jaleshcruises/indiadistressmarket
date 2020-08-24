@@ -1,23 +1,27 @@
 import React, { Fragment, Component } from "react";
 import Header from "../layout/header";
 import { Footer } from "../layout/footer";
-import AdvSearch from "../content/element/advance-search";
-import CardCategoryGrid4 from "../content/element/card/card-category-grid-4";
-import { SectionTitle } from "../content/element/section-title";
-import CardListingGrid4 from "../content/element/card/card-listing-grid-4";
-import { NavLink } from "react-router-dom";
-import { ContentBlockHome } from "../content/element/content-block";
-import CardCategoryGrid2 from "../content/element/card/card-category-grid-2";
+
 import { PlaceList } from "../content/element/place-list";
 import Testimonial from "../content/element/carousel/testimonial";
 import ClientLogo from "../content/element/carousel/client-logo";
 import { Subscribe } from "../content/element/subscribe";
 import { connect } from "react-redux";
 
+import { ContentBlockHome } from "../content/element/content-block";
+import CardListingGrid4 from "../content/element/card/card-listing-grid-4";
+import AdvSearch from "../content/element/advance-search";
+import { SectionTitle } from "../content/element/section-title";
+import CardCategoryGrid4 from "../content/element/card/card-category-grid-4";
+import CardCategoryGrid2 from "../content/element/card/card-category-grid-2";
+import LatestArticles from "../LatestUpdates/LatestArticles/";
+import CommunityNetwork from "../LatestUpdates/CommunityNetwork/";
+import AssetsOnSale from "../LatestUpdates/AssetsOnSale/";
+import LatestConsultation from "../LatestUpdates/LatestConsultation/";
+
 import AboutOurCommunity from "../content/element/AboutOurCommunity";
 import { Counter } from "../content/element/counter";
 
-const noAction = (e) => e.preventDefault();
 class Index extends Component {
   render() {
     const logdIn = () => {
@@ -43,16 +47,12 @@ class Index extends Component {
         <AboutOurCommunity />
         {/*About Our Community and Our Expertise Section end*/}
 
-        {/* Counter section end */}
-        <Counter />
-        {/* Counter section end */}
-
         {/* Category section start */}
         <section className="categories-cards section-padding-two">
           <div className="container">
             <SectionTitle
-              title="What Kind of Activity do you Want to try?"
-              content="Discover best things to do restaurants, shopping, hotels, cafes and places around the world by categories."
+              title="Popular Assets / Business Categories"
+              content="Buy a Running Business or its assets. Or buy something that can get you profits."
             />
             <div className="row">
               <CardCategoryGrid4 />
@@ -61,41 +61,55 @@ class Index extends Component {
         </section>
         {/* Category section end */}
 
-        {/* Listing section start */}
-        <section className="listing-cards section-bg section-padding">
+        {/*CommunityNetwork Section*/}
+        <CommunityNetwork />
+        {/*CommunityNetwork Section end*/}
+
+        {/*AssetsOnSale Section*/}
+        <AssetsOnSale />
+        {/*AssetsOnSale Section end*/}
+
+        {/*LatestConsultation Section*/}
+        <LatestConsultation />
+        {/*LatestConsultation Section end*/}
+
+        {/*LatestUpdates Section*/}
+        <LatestArticles />
+        {/*LatestUpdates Section end*/}
+
+        {/*Why join India Distress Market ?  Section*/}
+        <ContentBlockHome />
+        {/*Why join India Distress Market ? Section end*/}
+
+        {/* Counter section end */}
+        <Counter />
+        {/* Counter section end */}
+
+        {/* Place section start */}
+        <section className="places section-padding">
           <div className="container">
             <SectionTitle
-              title="Best Listings Around the World"
-              content="Explore the popular listings around the world"
+              title="Popular Distress Destinations"
+              content="Explore best listings around the world by city (keep as it is)"
             />
             <div className="row">
-              <div className="listing-cards-wrapper col-lg-12">
-                <div className="row">
-                  <CardListingGrid4 logdIn={logdIn()} />
-                  <div className="col-lg-12 text-center m-top-20">
-                    <NavLink
-                      onClick={noAction}
-                      to="/at_demo"
-                      className="btn btn-gradient btn-gradient-two"
-                    >
-                      Explore All 200+
-                    </NavLink>
-                  </div>
+              <div className="col-lg-12">
+                <div className="cat-places-wrapper">
+                  <CardCategoryGrid2 />
                 </div>
               </div>
+              <PlaceList />
             </div>
           </div>
         </section>
-        {/* Listing section end */}
-
-        <ContentBlockHome />
+        {/* Place section end */}
 
         {/* Testimonial section start */}
         <section className="testimonial-wrapper section-padding--bottom">
           <div className="container">
             <SectionTitle
               title="Trusted By Over 4000+ Users"
-              content="Here is what people say about Direo"
+              content="Here is what people say about India Distress Market"
             />
             <div className="row">
               <Testimonial />
