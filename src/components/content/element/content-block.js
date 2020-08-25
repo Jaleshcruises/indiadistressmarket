@@ -114,28 +114,28 @@ export class ContentBlockHome extends Component {
                       </li>
                     </ul>
                     {/*<!-- ends: .feature-list-wrapper -->*/}
-                    <ul className="action-btns list-unstyled">
-                      <li>
-                        <NavLink
-                          onClick={noAction}
-                          to="/at_demo"
-                          className="btn btn-success"
-                        >
-                          Join the Community
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink
-                          onClick={noAction}
-                          to="/at_demo"
-                          className="btn btn-primary"
-                        >
-                          Advertise For Free
-                        </NavLink>
-                      </li>
-                    </ul>
                   </div>
                 </div>
+                <ul className="action-btns list-unstyled">
+                  <li>
+                    <NavLink
+                      onClick={noAction}
+                      to="/at_demo"
+                      className="btn btn-success"
+                    >
+                      Join the Community
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      onClick={noAction}
+                      to="/at_demo"
+                      className="btn btn-primary"
+                    >
+                      Advertise For Free
+                    </NavLink>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

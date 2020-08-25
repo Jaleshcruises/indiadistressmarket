@@ -80,7 +80,7 @@ export class Footer extends Component {
                     <ul className="list-unstyled">
                       <li className="page-item">
                         <NavLink to="/about" onClick={noAction}>
-                          Join Direo
+                          Join India Distress Market
                         </NavLink>
                       </li>
                       <li className="page-item">
@@ -100,7 +100,7 @@ export class Footer extends Component {
                       </li>
                       <li className="page-item">
                         <NavLink to="/about" onClick={noAction}>
-                          Direo App
+                          India Distress Market App
                         </NavLink>
                       </li>
                       <li className="page-item">
@@ -210,10 +210,10 @@ export class Footer extends Component {
                     </NavLink>
                     <p className="m-0 copy-text">
                       ©2020 India Distress Market. Made with{" "}
-                      <span className="la la-heart-o" /> by{" "}
-                      <NavLink onClick={noAction} to="www.aazztech.com">
+                      <span className="la la-heart-o" />
+                      {/* <NavLink onClick={noAction} to="www.aazztech.com">
                         Innovizia
-                      </NavLink>
+                      </NavLink> */}
                     </p>
                     <ul className="list-unstyled lng-list">
                       <li>

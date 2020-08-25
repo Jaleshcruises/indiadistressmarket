@@ -1,24 +1,26 @@
 // testimonial carousel
-.testimonial-wrapper{
+.testimonial-wrapper {
   margin-top: remy(-10px);
+  background: #fff6f9;
+  padding: 5rem 0;
 }
-.testimonial-carousel{
+.testimonial-carousel {
   position: relative;
-  .carousel-single{
+  .carousel-single {
     text-align: center;
-    .author-thumb{
+    .author-thumb {
       display: inline-block;
       margin-bottom: remy(9px);
     }
-    .author-info{
-      span{
+    .author-info {
+      span {
         font-size: remy(14px);
         color: $text-grey2;
         display: block;
         margin-top: 5px;
       }
     }
-    .author-comment{
+    .author-comment {
       width: remy(700px);
       margin: remy(25px) auto 0;
       font-size: remy(17px);
@@ -26,12 +28,12 @@
       color: $text-grey2;
     }
   }
-  .owl-nav{
-    button{
+  .owl-nav {
+    button {
       width: remy(50px);
       height: remy(50px);
       background: #fff;
-      box-shadow: 0 5px remy(15px) rgba($light-gray, .15);
+      box-shadow: 0 5px remy(15px) rgba($light-gray, 0.15);
       border-radius: remy(300px);
       position: absolute;
       top: 50%;
@@ -42,16 +44,16 @@
       align-items: center;
       justify-content: center;
       border: none;
-      span{
+      span {
         font-size: remy(18px);
       }
-      &:hover{
+      &:hover {
         @extend .color-primary;
       }
-      &.owl-prev{
-        left:remy(15px);
+      &.owl-prev {
+        left: remy(15px);
       }
-      &.owl-next{
+      &.owl-next {
         right: remy(15px);
       }
     }
@@ -59,13 +61,13 @@
 }
 
 //logo carousel
-.logo-carousel{
-  .owl-stage{
+.logo-carousel {
+  .owl-stage {
     display: flex;
     align-items: center;
   }
-  .carousel-single{
-    img{
+  .carousel-single {
+    img {
       width: 100%;
     }
   }

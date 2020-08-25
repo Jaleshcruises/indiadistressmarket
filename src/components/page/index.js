@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from "react";
 import Header from "../layout/header";
 import { Footer } from "../layout/footer";
-
+import { NavLink } from "react-router-dom";
 import { PlaceList } from "../content/element/place-list";
 import Testimonial from "../content/element/carousel/testimonial";
 import ClientLogo from "../content/element/carousel/client-logo";
 import { Subscribe } from "../content/element/subscribe";
 import { connect } from "react-redux";
+import ListingCardGrid12 from "../content/element/card/card-listion-grid-12";
 
 import { ContentBlockHome } from "../content/element/content-block";
 import CardListingGrid4 from "../content/element/card/card-listing-grid-4";
@@ -21,6 +22,8 @@ import LatestConsultation from "../LatestUpdates/LatestConsultation/";
 
 import AboutOurCommunity from "../content/element/AboutOurCommunity";
 import { Counter } from "../content/element/counter";
+
+const noAction = (e) => e.preventDefault();
 
 class Index extends Component {
   render() {
@@ -86,7 +89,7 @@ class Index extends Component {
         {/* Counter section end */}
 
         {/* Place section start */}
-        <section className="places section-padding">
+        <section className="places section-padding sectionbg3">
           <div className="container">
             <SectionTitle
               title="Popular Distress Destinations"
@@ -104,8 +107,35 @@ class Index extends Component {
         </section>
         {/* Place section end */}
 
+        {/* Listing section start */}
+        <section className="listing-cards section-padding ">
+          <div className="container">
+            <SectionTitle
+              title="Best Listings Around the World"
+              content="Explore the popular listings around the world"
+            />
+            <div className="row">
+              <div className="listing-cards-wrapper col-lg-12">
+                <div className="row">
+                  <CardListingGrid4 logdIn={logdIn()} />
+                  <div className="col-lg-12 text-center m-top-20">
+                    <NavLink
+                      onClick={noAction}
+                      to="/at_demo"
+                      className="btn btn-gradient btn-gradient-two"
+                    >
+                      Explore All 200+
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Listing section end */}
+
         {/* Testimonial section start */}
-        <section className="testimonial-wrapper section-padding--bottom">
+        <section className="testimonial-wrapper">
           <div className="container">
             <SectionTitle
               title="Trusted By Over 4000+ Users"

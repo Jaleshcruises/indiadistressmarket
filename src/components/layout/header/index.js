@@ -84,7 +84,7 @@ class Header extends Component {
                                 >
                                   Login
                                 </a>
-                                <span>/</span>
+                                {/* <span>/</span>
                                 <a
                                   href=" "
                                   className="access-link"
@@ -92,7 +92,7 @@ class Header extends Component {
                                   data-target="#signup_modal"
                                 >
                                   Register
-                                </a>
+                                </a> */}
                               </li>
                             </ul>
                           ) : (
