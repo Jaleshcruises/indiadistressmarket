@@ -10,7 +10,7 @@ export class Counter extends Component {
                         <div className="row">
                             <div className="col-lg-12 text-center">
                                 <h1>Millions of People</h1>
-                                <p>turn to Directoria every day to make spending decisions</p>
+                                <p>turn to India Distress Market every day for resources, answers, marketplace</p>
                                 <ul className="list-unstyled counter-items">
                                     <li>
                                         <p><span className="count_up">59</span>k+</p>

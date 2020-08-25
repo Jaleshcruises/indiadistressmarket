@@ -30,9 +30,14 @@ const AdvSearch = () => {
                   <div className="single_search_field search_category">
                     <select className="search_fields" id="at_biz_dir-category">
                       <option value>Select a category</option>
-                      <option value="automobile">Automobile</option>
-                      <option value="education">Education</option>
-                      <option value="event">Event</option>
+                      <option value="automobile">Assets on Sale</option>
+                      <option value="education">Businesses for Sale</option>
+                      <option value="event">Insolvency Professionals</option>
+                      <option value="event">Other Professionals</option>
+                      <option value="event">Resources</option>
+                      <option value="event">Research Documents</option>
+                      <option value="event">News & Articles</option>
+                      <option value="event">Jobs</option>
                     </select>
                   </div>
 

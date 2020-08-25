@@ -49,7 +49,7 @@
             "id" : "1",
             "opCl" : "open",
             "badge" : "featured",
-            "title" : "Flanders Heat & Air Systems",
+            "title" : "Bharat Heat & Air Systems",
             "rating" : "4.5",
             "price" : "55",
             "location" : "Los Angeles, United States",
@@ -62,7 +62,7 @@
             "id" : "2",
             "opCl" : "open",
             "badge" : "popular",
-            "title" : "Sydney Restaurant Towers",
+            "title" : "Gupta Restaurant Towers",
             "rating" : "4.3",
             "price" : "78",
             "location" : "Los Angeles, United States",
@@ -88,10 +88,10 @@
             "id" : "4",
             "badge" : "new",
             "opCl" : "open",
-            "title" : "Favorite Place Fog Bank",
+            "title" : "Agents of Change Bank",
             "rating" : "4.0",
             "price" : "45",
-            "location" : "Los Angeles, United States",
+            "location" : "Los Dubai, United States",
             "phone" : "(415) 796-3633",
             "category" : "Art & History",
             "icon" : "la-bank"
@@ -100,11 +100,11 @@
             "img" : "./assets/img/p6.jpg",
             "id" : "5",           
             "badge" : "new",
-            "title" : "Flanders Heat & Air Systems",
+            "title" : "BharatGupta Air Systems",
             "rating" : "4.0",
             "opCl" : "close",
             "price" : "45",
-            "location" : "Los Angeles, United States",
+            "location" : "Los Angeles, UAE",
             "phone" : "(415) 796-3633",
             "category" : "Hotel & Travel",
             "icon" : "la-bed"
@@ -155,7 +155,7 @@
             "img" : "./assets/img/tthumb1.jpg",
             "id" : "1",
             "title" : "Francis Burton",
-            "location" : "Toronto, Canada"
+            "location" : "Kharghar, Mumbai"
         },
         {
             "img" : "./assets/img/tthumb1.jpg",
